@@ -1,0 +1,39 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  nav {
+    width: 100%;
+    
+  }
+  
+  main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Routes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px; /
+  }
+  
+  .Routes > div {
+    width: 90%; 
+    max-width: 960px; /
+  }
+  
